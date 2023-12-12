@@ -1,2 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using DelegateActionAndFunc;
+
+Console.WriteLine($"Func example result : {new DelegatesExample().Add(2, 8)}");
